@@ -9,6 +9,6 @@
 
 **2)LCD programs**
 
-**   a)4-Bit LCD programs**
+  **a)** 4-Bit LCD programs
 
-**   b)8-Bit LCD programs**
+  **b)** 8-Bit LCD programs
