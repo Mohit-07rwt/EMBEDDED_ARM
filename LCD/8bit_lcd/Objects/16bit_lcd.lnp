@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\delay.o"
+".\objects\lcd_8bit_driver.o"
+".\objects\main.o"
+--strict --scatter ".\Objects\16bit_lcd.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\16bit_lcd.map" -o .\Objects\16bit_lcd.axf
