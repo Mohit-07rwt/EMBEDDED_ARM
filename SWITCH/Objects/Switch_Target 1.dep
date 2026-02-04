@@ -1,0 +1,8 @@
+Dependencies for Project 'Switch', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\2switch.c)(0x693C0717)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\2switch.o --omf_browse .\objects\2switch.crf --depend .\objects\2switch.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (header2.h)(0x6935752B)
+F (.\header2.h)(0x6935752B)()
+F (.\delay.c)(0x692F0AD3)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
